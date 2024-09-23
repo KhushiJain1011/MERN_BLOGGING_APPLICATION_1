@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <article className={mode === "dark" ? "dark-bg" : "light-bg"}>
       <HeroSection />
-      <TrendingBlogs />
       <LatestBlog blogs={filteredBlogs} heading={"Latest Blogs"} />
+      <TrendingBlogs />
       <PopularAuthors />
     </article>
   )

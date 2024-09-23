@@ -19,16 +19,6 @@ const Footer = () => {
     }>
 
       <div className="container">
-        <div className="about">
-          <h3>About</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat incidunt tempora id tempore nam accusantium quisquam magnam cumque, recusandae repellat, repudiandae nihil quis qui ipsam corrupti, facilis illo. At, quam.</p>
-          <p>
-            <span>Email: </span>khushi@gmail.com
-          </p>
-          <p>
-            <span>Phone Number: </span>0000000000
-          </p>
-        </div>
         <div className="quick_links">
           <h3>Quick Links</h3>
           <ul>
@@ -49,18 +39,28 @@ const Footer = () => {
             <li>Economy</li>
           </ul>
         </div>
-        <div className='news_letter'>
+        <div className="about">
+          <h3>Contact Us</h3>
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat incidunt tempora id tempore nam accusantium quisquam magnam cumque, recusandae repellat, repudiandae nihil quis qui ipsam corrupti, facilis illo. At, quam.</p> */}
+          <p>
+            <span>Email: </span><br />wander.writings@example.com
+          </p>
+          <p>
+            <span>Phone Number: </span><br />0101000110
+          </p>
+        </div>
+        {/* <div className='news_letter'>
           <h3>Weekly NewsLetter</h3>
           <p>Get blog articles and offer via email</p>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <input type="text" placeholder='Your email' />
           <button>Subscribe</button>
-        </div>
+        </div> */}
       </div>
 
       <div className="container">
-        <div className='logo'>ZETA <span>BLOG</span></div>
+        <div className='logo'>Wander<span>Writings</span></div>
         <div className='links'>
           <Link to={"/"} target='_blank'>
             <AiFillInstagram />

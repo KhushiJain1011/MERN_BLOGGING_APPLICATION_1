@@ -44,13 +44,19 @@ const Navbar = () => {
       >
         <nav>
           <div className="logo">
-            Zeta<span>Blog</span>
+            Wander<span>Writings</span>
           </div>
           <div className={show ? "links show" : "links"}>
             <ul>
               <li>
                 <Link to={"/"} onClick={handleNavbar}>
                   HOME
+                </Link>
+              </li>
+
+              <li>
+                <Link to={"/about"} onClick={handleNavbar}>
+                  ABOUT
                 </Link>
               </li>
 
@@ -66,11 +72,7 @@ const Navbar = () => {
                 </Link>
               </li>
 
-              <li>
-                <Link to={"/about"} onClick={handleNavbar}>
-                  ABOUT
-                </Link>
-              </li>
+
             </ul>
 
             <div className="btns">

@@ -148,7 +148,7 @@ export const CreateBlog = () => {
                 <option value="">Select Blog Category</option>
                 <option value="Lifestyle">Lifestyle</option>
                 <option value="Technology">Technology</option>
-                <option value="Economy">Economy</option>
+                <option value="Economy">Food</option>
                 <option value="Business">Business</option>
                 <option value="Travel">Travel</option>
                 <option value="Sports">Sports</option>
